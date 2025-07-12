@@ -1,0 +1,19 @@
+{
+  "livePreview": true,
+  "readableLineLength": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showLineNumber": true,
+  "spellcheck": false,
+  "strictLineBreaks": false,
+  "tabSize": 2,
+  "useTab": false,
+  "showFrontmatter": true,
+  "promptDelete": false,
+  "attachmentFolderPath": "Attachments",
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true,
+  "vimMode": false,
+  "showInlineTitle": true,
+  "showUnsupportedFiles": true
+} 
