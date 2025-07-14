@@ -26,12 +26,20 @@
 - [ ] Cryptography cơ bản
 
 ### Giai đoạn 2: Công nghệ (6-8 tuần)
-- [ ] Smart Contracts
-- [ ] Solidity
+- [ ] Smart Contracts & Solidity
+- [ ] Layer 2 Solutions (Arbitrum, Optimism, zkSync)
+- [ ] Account Abstraction & UX improvements
 - [ ] Web3.js/Ethers.js
 - [ ] DApps development
 
-### Giai đoạn 3: Thực hành (8-10 tuần)
+### Giai đoạn 3: Advanced Topics (6-8 tuần)
+- [ ] AI-Blockchain Integration
+- [ ] Real World Assets (RWA) Tokenization
+- [ ] Modular Blockchain Architecture
+- [ ] Cross-chain Interoperability
+- [ ] Security & Auditing
+
+### Giai đoạn 4: Thực hành (8-10 tuần)
 - [ ] Xây dựng dự án thực tế
 - [ ] Deploy smart contracts
 - [ ] Frontend integration

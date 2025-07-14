@@ -44,10 +44,18 @@
 - [ ] Giải thích Merkle tree
 - [ ] Hoàn thành cryptography quiz
 
-### Tuần 4: DeFi & NFT Introduction
-**Mục tiêu**: Tìm hiểu các ứng dụng blockchain
-- [ ] Học: DeFi protocols, NFT standards
-- [ ] Thực hành: Sử dụng Uniswap, OpenSea
+### Tuần 4: DeFi & Modern Blockchain Trends
+**Mục tiêu**: Tìm hiểu các ứng dụng blockchain hiện đại
+- [ ] Học: DeFi protocols, Layer 2 solutions
+- [ ] Tìm hiểu: Account Abstraction, RWA tokenization
+- [ ] Thực hành: Sử dụng Uniswap trên Arbitrum
+- [ ] Research: AI-blockchain integration trends
+
+**Deliverables**:
+- [ ] So sánh các Layer 2 solutions
+- [ ] Tạo account trên zkSync/Arbitrum
+- [ ] Thực hiện giao dịch trên L2
+- [ ] Viết báo cáo về trends 2025
 - [ ] Đọc: DeFi whitepapers
 - [ ] Tham gia: DeFi communities
 

@@ -32,11 +32,19 @@ Tìm hiểu sâu về các công nghệ blockchain chính và cách ứng dụng
 - [ ] [[17-MetaMask-Integration]]
 - [ ] [[18-Frontend-Integration]]
 
-### 5. Alternative Platforms
+### 5. Layer 2 & Scaling Solutions
+- [ ] [[07-Layer-2-Solutions]]
 - [ ] [[19-Binance-Smart-Chain]]
 - [ ] [[20-Polygon-Matic]]
 - [ ] [[21-Avalanche]]
 - [ ] [[22-Solana]]
+
+### 6. Advanced Technologies (2025)
+- [ ] [[08-Account-Abstraction]]
+- [ ] [[09-AI-Blockchain-Integration]]
+- [ ] [[10-Modular-Blockchain-Architecture]]
+- [ ] [[11-Real-World-Assets-Tokenization]]
+- [ ] [[12-Cross-Chain-Interoperability]]
 
 ## 🛠️ Công cụ cần thiết
 
@@ -45,6 +53,7 @@ Tìm hiểu sâu về các công nghệ blockchain chính và cách ứng dụng
 - **Hardhat**: Framework phát triển
 - **Ganache**: Local blockchain
 - **Node.js**: Runtime environment
+- **Layer 2 Tools**: Arbitrum, Optimism, Polygon networks
 
 ## 📚 Tài nguyên học tập
 
