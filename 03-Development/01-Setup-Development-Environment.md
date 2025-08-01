@@ -1,53 +1,96 @@
-# 🛠️ Setup Development Environment
+# 🛠️ Development Environment Setup 2025: Complete Modern Stack
 
-## 🎯 Mục tiêu bài học
+## 🎯 First-Principles Development Environment Thinking
 
-Sau bài học này, bạn sẽ:
+### Mindset về Modern Dev Environment
 
-- Setup được môi trường phát triển blockchain hoàn chỉnh
-- Biết cách sử dụng các công cụ development chính
-- Có thể tạo và deploy smart contract đầu tiên
-- Hiểu workflow của blockchain developer
+**Assumption cơ bản**: Development environment is your productivity foundation
 
-## 📋 Required Tools Overview
+1. **Reproducibility**: Setup phải hoạt động trên bất kỳ máy nào
+2. **Automation**: Minimize manual setup steps
+3. **Performance**: Tối ưu cho development speed
+4. **Security**: Secure từ development stage
+5. **Scalability**: Support từ solo dev đến team collaboration
 
-### Essential Development Stack
+### 2025 Blockchain Development Ecosystem
 
 ```mermaid
-graph TD
-    A[Developer Machine] --> B[Node.js & npm]
-    B --> C[Hardhat/Truffle]
-    C --> D[Solidity Compiler]
-    D --> E[MetaMask Wallet]
-    E --> F[VS Code + Extensions]
-    F --> G[Git Version Control]
-    G --> H[Testnet ETH]
+graph TB
+    A[Development Environment] --> B[Core Tools]
+    A --> C[Smart Contract Framework]
+    A --> D[Frontend Stack]
+    A --> E[Testing Suite]
+    A --> F[Deployment Pipeline]
+    
+    B --> B1[Node.js 20+]
+    B --> B2[Git]
+    B --> B3[VS Code]
+    B --> B4[Docker]
+    
+    C --> C1[Hardhat/Foundry]
+    C --> C2[Solidity 0.8.24+]
+    C --> C3[OpenZeppelin]
+    C --> C4[Ethers.js v6]
+    
+    D --> D1[Next.js 14]
+    D --> D2[TypeScript 5+]
+    D --> D3[Wagmi v2]
+    D --> D4[Viem]
+    
+    E --> E1[Mocha/Chai/Jest]
+    E --> E2[Hardhat Tests]
+    E --> E3[Foundry Tests]
+    E --> E4[Slither/Mythril]
+    
+    F --> F1[GitHub Actions]
+    F --> F2[Vercel/Netlify]
+    F --> F3[Tenderly]
+    F --> F4[Defender]
 ```
 
-## 🖥️ System Requirements
+## � Core System Setup
 
-### Minimum specs
-- **OS**: Windows 10, macOS 10.15+, Ubuntu 18.04+
-- **RAM**: 8GB (16GB recommended)
-- **Storage**: 100GB free space
-- **Internet**: Stable connection for blockchain sync
-
-### Recommended specs
-- **RAM**: 16GB+ for running local blockchain
-- **SSD**: Fast storage for blockchain data
-- **Multiple monitors**: For development efficiency
-
-## 📦 Core Installation Guide
-
-### 1. Node.js & npm
-
-**Install Node.js:**
+### 1. System Requirements & Installation
 
 ```bash
-# macOS (using Homebrew)
-brew install node
+# ✅ macOS Setup (M1/M2 optimized)
+# Install Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Windows (download from nodejs.org)
+# Essential tools
+brew install node@20 git curl wget
+brew install --cask visual-studio-code
+brew install --cask docker
+brew install --cask figma # For UI/UX design
+
+# Node.js version management
+brew install fnm
+echo 'eval "$(fnm env --use-on-cd)"' >> ~/.zshrc
+source ~/.zshrc
+
+# Install latest LTS Node.js
+fnm install --lts
+fnm use lts-latest
+fnm default lts-latest
+
+# Verify installation
+node --version  # Should be 20.x.x
+npm --version   # Should be 10.x.x
+
+# ✅ Linux/WSL Setup
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt-get install -y nodejs git curl wget build-essential
+
+# Install Docker
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+sudo usermod -aG docker $USER
+
+# ✅ Windows Setup (với WSL2)
+# Enable WSL2 first
+wsl --install -d Ubuntu-22.04
+
+# Follow Linux setup inside WSL2
 # https://nodejs.org/en/download/
 
 # Ubuntu/Debian

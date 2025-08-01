@@ -13,17 +13,17 @@ Học cách phát triển ứng dụng blockchain từ cơ bản đến nâng ca
 - [ ] [[04-IDE-Configuration]]
 
 ### 2. Smart Contract Development
-- [ ] [[05-Advanced-Solidity]]
-- [ ] [[06-Contract-Design-Patterns]]
-- [ ] [[07-Security-Best-Practices]]
-- [ ] [[08-Gas-Optimization]]
-- [ ] [[09-Upgradeable-Contracts]]
+- [x] [[05-Advanced-Solidity]]
+- [x] [[06-Contract-Design-Patterns]]
+- [x] [[07-Security-Best-Practices]]
+- [x] [[08-Gas-Optimization]]
+- [x] [[09-Upgradeable-Contracts]]
 
 ### 3. Testing and Deployment
-- [ ] [[10-Unit-Testing]]
-- [ ] [[11-Integration-Testing]]
-- [ ] [[12-Test-Coverage]]
-- [ ] [[13-Deployment-Strategies]]
+- [x] [[10-Unit-Testing]]
+- [x] [[11-Integration-Testing]]
+- [x] [[12-Test-Coverage]]
+- [x] [[13-Deployment-Strategies]]
 - [ ] [[14-Mainnet-Deployment]]
 
 ### 4. DApp Development

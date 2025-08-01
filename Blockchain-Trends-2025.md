@@ -9,10 +9,12 @@
 - **$0.01-0.1** transaction costs vs $5-50 on mainnet
 
 ### 2. Account Abstraction Revolution
-- **EIP-4337** enabling smart contract wallets
-- **Gasless transactions** via paymasters
+- **EIP-4337** smart contract wallets mainnet live
+- **EIP-7702** enables EOA upgrades (Pectra upgrade ready)
+- **Gasless transactions** via paymasters (80% adoption)
 - **Social recovery** replacing seed phrases
 - **Session keys** for gaming & automation
+- **Embedded wallets** vs Smart Contract Wallets battle
 
 ### 3. AI-Blockchain Convergence
 - **$15B+** market cap for AI-crypto projects
@@ -27,26 +29,40 @@
 - **100,000+ TPS** theoretical throughput
 
 ### 5. Real World Assets (RWA) Tokenization
-- **$280T** addressable market in real estate
-- **$50B+** currently tokenized assets
-- **400% YoY growth** in RWA protocols
-- **Institutional adoption** accelerating
+- **$18B+** tokenized RWA market size (260% YoY growth in 2025)
+- **$7.5B** tokenized U.S. Treasuries alone (most institutional segment)
+- **$2.88B** BlackRock BUIDL fund (45% of tokenized Treasury market)
+- **$280T** addressable market potential globally
+- **$224.9B** fiat-backed stablecoins leading sector
+- **BlackRock BUIDL, Fidelity FBTC** institutional adoption accelerating
+- **MiCA regulation** (EU) and **FIT21** (US) providing regulatory clarity
+
+### 6. Zero-Knowledge Proofs at Scale
+- **ZK Rollups** achieving immediate finality
+- **StarkNet, zkSync Era, Polygon zkEVM** leading adoption
+- **Privacy-preserving** smart contracts
+- **Thousands of TPS** with cryptographic security
+- **Enterprise-grade** privacy solutions
 
 ## 🎯 Developer Focus Areas
 
-### High Demand Skills:
-1. **Layer 2 Development** (Arbitrum, Optimism, zkSync)
-2. **Account Abstraction** implementation
-3. **Cross-chain protocols** (LayerZero, Wormhole)
-4. **AI-blockchain integration**
-5. **RWA tokenization** frameworks
+### High Demand Skills
 
-### Emerging Opportunities:
+1. **Layer 2 Development** (Arbitrum, Optimism, zkSync)
+2. **Zero-Knowledge Proofs** và ZK applications
+3. **Account Abstraction** implementation  
+4. **Cross-chain protocols** (LayerZero, Wormhole)
+5. **AI-blockchain integration**
+6. **RWA tokenization** frameworks
+
+### Emerging Opportunities
+
 - **Modular blockchain** development
-- **ZK application** development
-- **DeFi yield optimization**
-- **Gaming & NFT** platforms
-- **Enterprise blockchain** solutions
+- **ZK application** development với privacy focus
+- **DeFi yield optimization** và risk management
+- **Gaming & NFT** platforms với better UX
+- **Enterprise blockchain** solutions cho institutions
+- **RWA-focused chains** (Plume, Converge, Plasma)
 
 ## 🏗️ Technology Stack Evolution
 

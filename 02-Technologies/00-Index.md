@@ -39,12 +39,22 @@ Tìm hiểu sâu về các công nghệ blockchain chính và cách ứng dụng
 - [ ] [[21-Avalanche]]
 - [ ] [[22-Solana]]
 
-### 6. Advanced Technologies (2025)
+### 6. Advanced Technologies (2025 Update)
 - [ ] [[08-Account-Abstraction]]
-- [ ] [[09-AI-Blockchain-Integration]]
-- [ ] [[10-Modular-Blockchain-Architecture]]
-- [ ] [[11-Real-World-Assets-Tokenization]]
-- [ ] [[12-Cross-Chain-Interoperability]]
+- [ ] [[09-AI-Blockchain-Integration]] - AI x Crypto convergence
+- [ ] [[10-Modular-Blockchain-Architecture]] - Specialized blockchain layers
+- [ ] [[11-Real-World-Assets-Tokenization]] - $230B+ market
+- [ ] [[12-Zero-Knowledge-Proofs]] - Privacy & scaling revolution
+- [ ] [[13-Modular-Blockchain-Architecture]] - Next-gen architecture
+- [ ] [[14-Cross-Chain-Interoperability]]
+
+### 7. 2025 Cutting-Edge Topics
+- [ ] ZK Rollups Implementation
+- [ ] Celestia Data Availability
+- [ ] EigenLayer Restaking
+- [ ] Account Abstraction (EIP-4337)
+- [ ] AI Agent Economics
+- [ ] RWA Protocol Development
 
 ## 🛠️ Công cụ cần thiết
 

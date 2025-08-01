@@ -99,25 +99,79 @@ contract OptimismExample {
 - **Developer-friendly**: Gasless transactions
 - **Mass adoption focus**: Consumer applications
 
-### 2. ZK Rollups (Zero-Knowledge)
+### 2. ZK Rollups (Zero-Knowledge) - 2025 Update
 
 **Nguyên lý hoạt động:**
-- Sử dụng validity proofs (ZK proofs)
-- Instant finality khi proof được verify
-- Cao hơn về bảo mật so với Optimistic
+- Sử dụng **validity proofs** (ZK proofs) thay vì fraud proofs
+- **Instant finality** khi proof được verify trên L1
+- **Cryptographic security** thay vì economic security
 
-**Technical comparison:**
+**Major ZK Rollups 2025:**
+
+#### zkSync Era
+```javascript
+const zkSyncMetrics = {
+  tps: "2000+",
+  avgCost: "$0.05-0.15",
+  finality: "~10 minutes (proof generation)",
+  features: [
+    "Account Abstraction native",
+    "EVM compatible",
+    "Native paymaster support"
+  ]
+}
+```
+
+#### StarkNet (Cairo VM)
+```rust
+// Cairo smart contract example
+#[starknet::contract]
+mod Counter {
+    #[storage]
+    struct Storage {
+        counter: u128,
+    }
+
+    #[external(v0)]
+    fn increase_counter(ref self: ContractState) {
+        self.counter.write(self.counter.read() + 1);
+    }
+}
+```
+
+#### Polygon zkEVM
+```solidity
+// Full EVM compatibility
+contract PolygonZkExample {
+    mapping(address => uint256) public balances;
+    
+    function deposit() public payable {
+        balances[msg.sender] += msg.value;
+        // Works exactly like Ethereum
+    }
+}
+```
+
+**Technical comparison 2025:**
 ```python
-def compare_rollup_types():
+def compare_rollup_types_2025():
     return {
         "optimistic": {
             "finality": "7 days (fraud proofs)",
-            "gas_cost": "Lower",
+            "gas_cost": "Lower proof generation",
             "computation": "Native EVM",
-            "security": "Economic incentives"
+            "security": "Economic incentives",
+            "tps": "2000-4000"
         },
         "zk": {
             "finality": "Instant (validity proofs)",
+            "gas_cost": "Higher proof generation, lower verification",
+            "computation": "VM (Cairo/zkEVM)",
+            "security": "Cryptographic guarantees", 
+            "tps": "2000-9000+",
+            "privacy": "Enhanced through ZK"
+        }
+    }
             "gas_cost": "Higher (proof generation)",
             "computation": "zkEVM or custom VM",
             "security": "Cryptographic guarantees"
